@@ -1,0 +1,71 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Supermercado A",
+        "direccion": "Calle Principal 123, Ciudad",
+        "geolocalizacion": {
+          "latitud": 40.123456,
+          "longitud": -3.987654
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "consumo_regular": true,
+            "unidades": 2,
+            "unidad_medida": "litros",
+            "precio": 1.50,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pan",
+            "oferta": false,
+            "periodo_vigencia": null,
+            "consumo_regular": true,
+            "unidades": 1,
+            "unidad_medida": "unidad",
+            "precio": 0.75,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+        "nombre": "Supermercado B",
+        "direccion": "Avenida Secundaria 456, Ciudad",
+        "geolocalizacion": {
+          "latitud": 40.987654,
+          "longitud": -3.123456
+        },
+        "productos": [
+          {
+            "nombre": "Arroz",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-06-15",
+              "fin": "2023-06-30"
+            },
+            "consumo_regular": true,
+            "unidades": 1,
+            "unidad_medida": "kg",
+            "precio": 1.20,
+            "adquirido": false
+          },
+          {
+            "nombre": "Huevos",
+            "oferta": false,
+            "periodo_vigencia": null,
+            "consumo_regular": true,
+            "unidades": 6,
+            "unidad_medida": "unidad",
+            "precio": 1.80,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  
